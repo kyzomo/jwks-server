@@ -73,4 +73,5 @@ curl.exe http://localhost:8080/.well-known/jwks.json
 - What should go in my .gitignore for a Python Flask project so I don't commit my venv or cache files
 - My JWKS endpoint is returning both my valid and expired keys
 - PowerShell execution policy blocking venv activation
+- Improve my comments
 
