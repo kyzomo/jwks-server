@@ -62,3 +62,15 @@ curl.exe http://localhost:8080/.well-known/jwks.json
   JWKS entry, so a verifier can match the two up.
 - The JWKS endpoint filters out expired keys, so the expired key's
   public portion is intentionally never published there.
+
+## Prompts used
+
+Give me a outline of jwks server
+What does --run do in Gradebot, and how do I point it at my venv's Python so my dependencies are available
+How do I make sure PyJWT puts the kid in the JWT header, not the payload
+Expired key still showing up in JWKS
+Confusing curl syntax in PowerShell
+What should go in my .gitignore for a Python Flask project so I don't commit my venv or cache files
+My JWKS endpoint is returning both my valid and expired keys
+PowerShell execution policy blocking venv activation
+
